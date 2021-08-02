@@ -1,0 +1,99 @@
+body {
+  background-color: #091f43;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.head-line {
+  font-weight: bolder;
+  font-size: 3rem;
+  letter-spacing: 0.01em;
+  padding: 0 0 30px 0;
+  color: white;
+  text-align: center;
+}
+
+.form-one {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px 10px;
+  color: white;
+  font-size: 2rem;
+}
+
+input {
+  border: none;
+  outline: none;
+  color: inherit;
+  background: none;
+  font-size: 2rem;
+  height: 40px;
+  padding: 5px 5px 10px;
+  border-bottom: 1px solid white;
+  text-align: center;
+}
+
+input::placeholder {
+  color: #858b9f;
+}
+
+.form-two {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  padding: 30px 10px;
+}
+.form-two-btn {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 10px;
+}
+
+button {
+  background-color: #ff1e42;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  padding: 15px 20px;
+  margin-right: 120px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+textarea {
+  outline: none;
+  border: none;
+  background-color: #00000042;
+  color: white;
+}
+
+textarea::placeholder {
+  color: #858b9f;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 20px;
+}
+
+h3 {
+  color: #858b9f;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.cities {
+  display: grid;
+  grid-gap: 32px 20px;
+  grid-template-columns: repeat(4, 1fr);
+}

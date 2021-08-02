@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Journal</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="head-line">The Weather Journal for everyone and anyone.</h1>
+      </header>
+      <div class="form-one">
+        <label for="zip">Please Enter your Zip Code</label>
+        <input type="text" id="zip" placeholder="please enter your zip code" />
+      </div>
+      <div class="form-two">
+        <label for="feelings">What's on your mind today?</label>
+        <textarea
+          class="myInput"
+          id="feelings"
+          placeholder="lets know your thoughts today!"
+          rows="9"
+          cols="50"
+        ></textarea>
+      </div>
+      <div class="form-two-btn">
+        <button id="generate" type="submit">FORECAST</button>
+      </div>
+
+      <div class="result-section">
+        <h3>Older Entries</h3>
+      </div>
+      <div class="container">
+        <ul class="cities"></ul>
+      </div>
+    </div>
+  </body>
+</html>
